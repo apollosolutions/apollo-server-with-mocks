@@ -1,0 +1,20 @@
+{
+  "name": "apollo-server-with-mocks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/apollosolutions/apollo-server-with-mocks.git",
+  "author": "Lenny Burdette <lenny@apollographql.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@apollo/server": "^4.7.4",
+    "@apollo/subgraph": "^2.4.8",
+    "@graphql-tools/mock": "^9.0.0",
+    "graphql": "^16.7.0",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "typescript": "^5.1.3"
+  }
+}

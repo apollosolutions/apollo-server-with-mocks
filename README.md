@@ -7,5 +7,5 @@ Do you need a fast way to run Apollo Server with a given schema? Look no further
 ## Usage
 
 ```sh
-docker run -p 4000:4000 -v $(pwd)/schema.graphql:/app/schema.graphql ghcr.io/apollosolutions/apollo-server-with-mocks
+docker run -p 4000:4000 -v $(pwd)/schema.graphql:/app/schema.graphql ghcr.io/apollosolutions/apollo-server-with-mocks:main
 ```

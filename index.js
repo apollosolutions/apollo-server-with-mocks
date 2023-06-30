@@ -9,7 +9,7 @@ import { buildSchema, parse } from "graphql";
 const ENV = z.object({
   PORT: z.string().default("4000"),
   SCHEMA: z.string().default("schema.graphql"),
-  IS_SUBGRAPH: z.boolean().optional(),
+  IS_SUBGRAPH: z.string().optional(),
 });
 
 const env = ENV.parse(process.env);
